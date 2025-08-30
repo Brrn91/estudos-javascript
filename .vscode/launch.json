@@ -4,8 +4,9 @@
     {
       "type": "node",
       "request": "launch",
-      "name": "Rodar app.js",
-      "program": "${file}"
+      "name": "Rodar arquivo atual (Node.js)",
+      "program": "${file}",
+      "console": "integratedTerminal"
     }
   ]
 }
