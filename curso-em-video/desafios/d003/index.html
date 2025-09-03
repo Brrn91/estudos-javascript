@@ -13,13 +13,15 @@
     <h1>Vamos contar:</h1>
   </header>
   <section>
-    <label for="">Início:</label>
-    <input type="number" name="" id=""> <br>
-    <label for="">Fim:</label>
-    <input type="number" name="" id=""> <br>
-    <label for="">Passo 2:</label>
-    <input type="number" name="" id=""> <br>
-    <input type="button" value="Contar">
+<div id="dados">
+<p>Início: <input type="number" name="inicio" id="txti"></p>
+<p>Fim: <input type="number" name="fim" id="txtf"></p>
+<p>Passo: <input type="number" name="passo" id="txtp"></p>
+<p><input type="button" value="Contar" onclick="contar()"></p>
+</div>
+<div id="res">
+<p>Preparando para contar...</p>
+</div>
   </section>
   <footer>
     <p>&copy; CursoemVídeo</p>
