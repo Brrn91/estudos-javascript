@@ -17,7 +17,8 @@ function contar() {
     let p = Number(passo.value);
 
     for (let c = 1; c <= f; c += p) {
-      res.innerHTML += ` ${c} u{1f449}`
+      res.innerHTML += ` ${c} \u{1f449}`
     }
+    res.inerHTML += `\u{1f3c1}`
   }
 }
