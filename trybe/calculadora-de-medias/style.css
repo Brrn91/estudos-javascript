@@ -20,7 +20,7 @@ body {
 
 div.calculator {
   width: 350px;
-  height: 300px;
+  height: 280px;
   background-color: white;
   text-align: center;
   align-content: center;
@@ -44,16 +44,17 @@ div#inputs>input {
   box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.150);
 }
 
-div#inputs>button.btn {
+button.btn {
   padding: 6px 12px;
   color: white;
   background-color: rgb(1, 114, 1);
   border-radius: 6px;
   border: none;
   box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.150);
+  font-weight: 600;
 }
 
-div#inputs>button.btn:hover {
+button.btn:hover {
   background-color: rgb(4, 213, 0);
 }
 
