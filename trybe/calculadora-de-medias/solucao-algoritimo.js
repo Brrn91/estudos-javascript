@@ -16,7 +16,9 @@ function calcularMedia() {
 media = somatorioNotas / notas.length;
 
 if (media > 6) {
-  document.getElementById('resultado').textContent = 'Estudante APROVADO!';
+  document.getElementById('resultado').textContent =
+    `Média ${media.toFixed(2)} - Estudante APROVADO!`;
 } else {
-  document.getElementById('resultado').textContent = 'Estudante REPROVADO!'
+  document.getElementById('resultado').textContent =
+  `Média ${media.toFixed(2)} - Estudante REPROVADO!`;
 }
