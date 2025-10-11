@@ -1,4 +1,4 @@
-# Hello, I'm Lucas Bruno (Brrn91) 👋 
+# Hello, I'm Lucas Bruno (Brrn91) 👋
 
 Future **Web Developer** passionate about creating intuitive digital experiences.
 
@@ -36,22 +36,15 @@ Here I document my progress, solutions, and experiments to improve my programmin
 
 ---
 
-## 📂 Repository Structure
-
-- `/exercises` → Practice with basic and intermediate concepts  
-- `/challenges` → Problem-solving and small algorithm implementations  
-- `/projects` → Practical projects applying JavaScript to real scenarios  
-
----
-
 ## 🌐 Connect with me
+
 - [LinkedIn](https://www.linkedin.com/in/lcsbrn/)  
 - [Instagram](https://www.instagram.com/lucas.mafr4/)  
 - [Twitter/X](https://x.com/brrn91/)  
 
 ---
 
-## 🧠 Lifelong learning...
+## 🧠 Lifelong learning
 
 *This repository will be updated regularly as I dive into new topics and projects. Any feedback, suggestions, or tips are more than welcome!*  
 

@@ -1,4 +1,4 @@
-# Olá, sou Lucas Bruno (Brrn91) | Hello, I'm Lucas Bruno (Brrn91) 👋 
+# Olá, sou Lucas Bruno (Brrn91) | Hello, I'm Lucas Bruno (Brrn91) 👋
 
 Future **Web Developer** passionate about creating intuitive digital experiences.
 
@@ -36,21 +36,15 @@ Aqui registro meu progresso, soluções e experimentos para evoluir minhas habil
 
 ---
 
-## 📂 Estrutura do Repositório | Repository Structure
-
-- `/exercicios` → Prática de conceitos básicos e intermediários  
-- `/desafios` → Problemas e pequenos algoritmos resolvidos  
-
----
-
 ## 🌐 Conecte-se comigo | Connect with me
+
 - [LinkedIn](https://www.linkedin.com/in/lcsbrn/)  
 - [Instagram](https://www.instagram.com/lucas.mafr4/)  
 - [Twitter/X](https://x.com/brrn91/)  
 
 ---
 
-## 🧠 Em aprendizado contínuo... | In a constant learning process...
+## 🧠 Em aprendizado contínuo... | In a constant learning process
 
 *Este repositório será atualizado com frequência, conforme avanço em novos conteúdos e projetos. Qualquer feedback ou sugestão será muito bem-vindo!*  
 
