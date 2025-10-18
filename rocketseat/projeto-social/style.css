@@ -16,3 +16,7 @@ background-size: cover;
   height: 712px;
   margin: auto;
 }
+
+#profile img{
+  width: 112px;
+}
