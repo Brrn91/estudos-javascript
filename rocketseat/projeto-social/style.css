@@ -11,12 +11,27 @@ background-size: cover;
   background: url(imagens/bg-mobile.jpg) no-repeat top center/cover;
 }
 
+body * {
+  font-family: "Inter", sans-serif;
+  color: #ffffff;
+}
+
 #container {
   width: 360px;
   height: 712px;
   margin: auto;
 }
 
-#profile img{
+#profile {
+  text-align: center;
+}
+
+#profile img {
   width: 112px;
+}
+
+#profile p {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
 }
