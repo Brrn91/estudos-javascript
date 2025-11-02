@@ -28,3 +28,29 @@ console.log(decremento);
 var idade = "28";
 var somaIdade = 5;
 console.log(+idade + somaIdade); //Sonal de "+" antes da var idade (+idade) transforma a string em número.
+
+// Exercícios
+// Qual o resultado da seguinte expressão?
+var total = 10 + 5 * 2 / 2 + 20;
+console.log(total); // 35
+
+// Crie duas expressões que retornem NaN
+var idade2 = "Minha idade é 28" / 2;
+var numero1 = 'Meu número favorito é 7' * 77;
+console.log(idade2, numero1);
+
+// Somar a string '200' com o número 50 e retornar 250
+var soma2 = +'200' + 50;
+console.log(soma2);
+
+// Incremente o número 5 e retorne o seu valor incrementado
+var incremento2 = 5;
+console.log(incremento2++)
+console.log(incremento2);
+
+// Como dividir o peso por 2?
+var numero = 80;
+var unidade = 'kg';
+var peso = +numero + unidade; // '80kg'
+var pesoPorDois = +peso / 2; // NaN (Not a Number)
+console.log(+pesoPorDois);
