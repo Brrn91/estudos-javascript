@@ -92,4 +92,3 @@ switch (corFavorita) {
     default: //Caso nada serja verdadeiro.
       console.log('Feche os olhos.')
 }
-
