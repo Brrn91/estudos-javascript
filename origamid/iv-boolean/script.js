@@ -77,3 +77,19 @@ if (possuiGraduacao) {
 // (5 - 5) || (5 + 5); // 10
 // 'Gato' || false; // Gato
 // (5 >= 5) || (3 < 6); // true
+
+var corFavorita = 'Verde';
+
+switch (corFavorita) {
+  case 'Azul':
+    console.log('Olhe para o céu.');
+    break; //Para por aqui se a condição for verdadeira.
+    case 'Amarelo':
+      console.log('Olhe para o sol.')
+      break;
+      case 'Verde':
+      console.log('Olhe para a floresta.')
+    default: //Caso nada serja verdadeiro.
+      console.log('Feche os olhos.')
+}
+
