@@ -13,7 +13,7 @@ console.log(total);
 
 // peso e altura são os parâmetros
 function imc(peso, altura) {
-  const imc = peso / (altura ** 2);
+  const imc = peso / altura ** 2;
   return imc;
 }
 
@@ -22,11 +22,15 @@ imc(60, 1.7); // 60 e 1.70 são os argumentos
 
 //Função cor favorita
 function corFavorita(cor) {
-  if(cor === 'Azul') {
+  if (cor === 'Azul') {
     return 'Eu gosto do céu.';
   } else if (cor === 'Verde') {
-    return 'Eu gosto de mato.'
+    return 'Eu gosto de mato.';
   } else {
-    return 'Eu não gosto de cores.'
+    return 'Eu não gosto de cores.';
   }
 }
+
+addEventListener('click', function () {
+  console.log('Oi');
+});
