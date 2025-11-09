@@ -19,3 +19,14 @@ function imc(peso, altura) {
 
 imc(80, 1.8); // 80 e 1.80 são os argumentos
 imc(60, 1.7); // 60 e 1.70 são os argumentos
+
+//Função cor favorita
+function corFavorita(cor) {
+  if(cor === 'Azul') {
+    return 'Eu gosto do céu.';
+  } else if (cor === 'Verde') {
+    return 'Eu gosto de mato.'
+  } else {
+    return 'Eu não gosto de cores.'
+  }
+}
