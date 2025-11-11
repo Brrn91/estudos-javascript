@@ -39,8 +39,6 @@ Aqui registro meu progresso, soluções e experimentos para desenvolver minhas h
 ## 🌐 Conecte-se comigo
 
 - [LinkedIn](https://www.linkedin.com/in/lcsbrn/)
-- [Instagram](https://www.instagram.com/lucas.mafr4/)
-- [Twitter/X](https://x.com/brrn91/)
 
 ---
 
