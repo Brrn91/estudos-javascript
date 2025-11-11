@@ -34,3 +34,18 @@ function corFavorita(cor) {
 addEventListener('click', function () {
   console.log('Oi');
 });
+
+function terceiraIdade(idade) {
+  if(typeof idade !== 'number') {
+    return 'Por favor preencha um número!'
+  } else if(idade >= 60) {
+    return true;
+  } else {
+    return false;
+  }
+}
+
+console.log(terceiraIdade('oi'))
+
+//Escopo
+
