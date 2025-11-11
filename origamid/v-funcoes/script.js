@@ -49,3 +49,7 @@ console.log(terceiraIdade('oi'))
 
 //Escopo
 
+function faltamVisitar(paisesVisitados) {
+  var totalPaises = 193;
+  return `Falta visitar ${totalPaises - paisesVisitados} países.`
+}
