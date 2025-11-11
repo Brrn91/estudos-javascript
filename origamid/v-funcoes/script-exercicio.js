@@ -33,15 +33,17 @@ function tipoDeDado(dados) {
 // addEventListener é uma função nativa do JavaScript
 // o primeiro parâmetro é o evento que ocorre e o segundo o Callback
 // utilize essa função para mostrar no console o seu nome completo
-// quando o evento 'scroll' ocorrer.
+// quando o evento 'click' ocorrer.
+addEventListener('click', function() {
+  console.log('Lucas Mafra')
+})
 
 // Corrija o erro abaixo
+var totalPaises = 193;
 function precisoVisitar(paisesVisitados) {
-  var totalPaises = 193;
   return `Ainda faltam ${totalPaises - paisesVisitados} países para visitar`;
 }
 function jaVisitei(paisesVisitados) {
   return `Já visitei ${paisesVisitados} do total de ${totalPaises} países`;
 }
 precisoVisitar(20);
-jaVisitei(20);
