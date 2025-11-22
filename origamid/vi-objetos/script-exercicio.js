@@ -31,6 +31,8 @@ var cachorro = {
   latir(pessoa) {
     if (pessoa === 'homem') {
       return 'latir';
+    } else {
+      return 'nada';
     }
   }
 }
