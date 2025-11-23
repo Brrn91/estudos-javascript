@@ -7,5 +7,5 @@ function parimpar(n) {
     return 'Ímpar';
   }
 }
-let res = parimpar(4);
+let res = parimpar(4); // par
 console.log(res);
