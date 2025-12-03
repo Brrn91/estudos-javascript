@@ -5,6 +5,7 @@ let valores = [];
 
 function adicionar() {
   if (isNumero(num.value) && !inLista(num.value, valores)) {
+    alert('Valor adicionado.');
   } else {
     alert('Valor inválido ou já encontrado na lista.');
   }
