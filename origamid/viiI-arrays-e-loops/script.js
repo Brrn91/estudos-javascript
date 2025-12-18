@@ -14,6 +14,7 @@ console.log(videoGames.length);
 */
 // LOOPS - LAÇOS DE REPETIÇÃO
 
+/*
 for (var numero = 0; numero <= 10; numero++){
   console.log(numero);
 }
@@ -32,4 +33,11 @@ for(var item = 0; item < videoGames.length; item++) {
     break;
   }
 }
+
+var frutas = ['Banana', 'Maçã', 'Uva', 'Pera'];
+
+frutas.forEach(function(item, index){
+  console.log(item, index);
+});
+*/
 
