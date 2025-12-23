@@ -38,7 +38,7 @@ Here I document my progress, solutions, and experiments to improve my programmin
 
 ## 🌐 Connect with me
 
-- [LinkedIn](https://www.linkedin.com/in/lcsbrn/)  
+- [LinkedIn](https://www.linkedin.com/in/brrn91/)  
 
 ---
 
