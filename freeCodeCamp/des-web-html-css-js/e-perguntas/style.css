@@ -46,6 +46,7 @@ main {
 .titulo {
   margin-top: 15vh;
   margin-bottom: 4rem;
+  text-align: center;
 }
 
 .titulo h2 {
