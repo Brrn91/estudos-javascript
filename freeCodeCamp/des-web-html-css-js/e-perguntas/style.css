@@ -93,7 +93,7 @@ main {
   border-color: transparent;
   cursor: pointer;
   color: #c59d5f;
-  transition: all 0.3 linear;
+  transition: all 0.3s linear;
 }
 
 .pergunta-botao:hover {
