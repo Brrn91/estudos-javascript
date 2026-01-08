@@ -19,8 +19,18 @@
   --largura-fixa: 620px;
 }
 
-* {
+*,
+::after,
+::before {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+body {
+  font-family: var(--fonte-secundaria);
+  background: var(--cor-cinza-3);
+  color: var(--cor-cinza-1);
+  line-height: 1.5;
+  font-size: 0.875rem;
 }
