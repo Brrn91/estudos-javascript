@@ -1,5 +1,24 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans|Roboto:400,700&display=swap");
 
+:root {
+  --cor-primaria-1: hsl(205, 86%, 17%);
+  --cor-primaria-2: hsl(205, 78%, 60%);
+  --cor-cinza-1: hsl(209, 17%, 28%);
+  --cor-cinza-2: hsl(210, 22%, 49%);
+  --cor-cinza-3: hsl(210, 36%, 96%);
+  --cor-branco: #ffffff;
+  --cor-preto: #222222;
+
+  --fonte-primaria: 'Roboto', sans-serif;
+  --fonte-secundaria: 'Open Sans', sans-serif;
+
+  --transicao: all 0.3s linear;
+
+  --espacamento: 0.1rem;
+
+  --largura-fixa: 620px;
+}
+
 * {
   margin: 0;
   padding: 0;
