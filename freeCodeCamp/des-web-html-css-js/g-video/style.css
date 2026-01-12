@@ -7,7 +7,7 @@
   right: 0;
   bottom: 0;
   background: #ffffff;
-  display: none;
+  display: flex;
   justify-content: center;
   align-items: center;
   visibility: visible;
