@@ -7,3 +7,87 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  background: hsl(210, 36%, 96%);
+  color: darkslateblue;
+  line-height: 1.5;
+  font-size: 0.875rem;
+}
+
+ul {
+  padding-left: 20px;
+}
+
+img {
+  display: block;
+  width: 100%;
+}
+
+h2,
+h4 {
+  letter-spacing: 0.25rem;
+  margin-bottom: 0.75rem;
+  font-family: 'Roboto', sans-serif;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+h4 {
+  font-size: 0.875rem;
+}
+
+p {
+  margin-bottom: 1.25rem;
+}
+
+.secao {
+  padding: 5rem 0;
+}
+
+.secao-container {
+  width: 90vw;
+  margin: 0 auto;
+  max-width: 900px;
+}
+
+.titulo {
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+.titulo p {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.sobre-container {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+@media screen and (min-width: 800px) {
+  .sobre-container {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.sobre-imagem {
+  margin-bottom: 2rem;
+}
+
+.sobre-imagem img {
+  border-radius: 0.5rem;
+  object-fit: cover;
+  height: 20rem;
+}
+
+.sobre {
+  background: #fff;
+  border-radius: 0.5rem;
+  display: grid;
+  grid-template-rows: auto 1fr;
+}
