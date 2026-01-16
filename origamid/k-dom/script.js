@@ -2,4 +2,4 @@
 
 // window.alert('Olá, mundo!')
 
-document.querySelector('h1')
+const h1Selecionado = document.querySelector('h1');
