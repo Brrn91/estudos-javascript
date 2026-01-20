@@ -21,5 +21,15 @@ const gridSectionNode = document.querySelectorAll('grid-section');
 
 primeiraUl.classList.add('grid-section');
 
-console.log(gridSectionHTML);
-console.log(gridSectionNode);
+// console.log(gridSectionHTML);
+// console.log(gridSectionNode);
+
+gridSectionNode.forEach(function(item, index) {
+  console.log(item);
+});
+
+const arrayGrid = Array.from(gridSectionHTML);
+
+arrayGrid.forEach(function (item) {
+  console.log(item);
+});
