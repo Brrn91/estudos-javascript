@@ -14,8 +14,15 @@ console.log(linkInterno);
 
 // Selecione o primeiro h2 dentro de .animais-descricao
 
-const h2Animais = document.querySelector('.animais-descricao h2');
+const animais = document.querySelector('.animais-descricao')
+const h2Animais = animais.querySelector('h2');
+
+console.log(animais);
 console.log(h2Animais);
 
 // Selecione o último p do site
 
+const paragrafos = document.querySelectorAll('p');
+
+
+console.log(paragrafos[paragrafos.length - 1]);
