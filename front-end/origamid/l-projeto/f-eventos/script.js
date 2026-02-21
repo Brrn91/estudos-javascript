@@ -23,7 +23,29 @@ const linkExterno = document.querySelector('a[href^=http]');
 
 function handleLinkExterno(event) {
   event.preventDefault();
-  console.log(event);
-};
+  // console.log(event);
+  console.log(this.getAttribute('href'));
+  console.log(currentTarget);
+}
 
 linkExterno.addEventListener('click', handleLinkExterno);
+
+function handleEvent(event) {
+  console.log(event.type, event);
+}
+
+const h1 = document.querySelector('h1');
+// h1.addEventListener('click', handleEvent);
+// h1.addEventListener('mouseenter', handleEvent);
+
+// window.addEventListener('scroll', handleEvent);
+// window.addEventListener('resize', handleEvent);
+
+function handleKeyboard(event) {
+  if(event.key === 'f'){
+    document.body.classList.add.toggle('fullsreen')
+  }
+  console.log(event.key);
+}
+
+window.addEventListener('keydown', handleEvent);
